@@ -6,12 +6,12 @@
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Button" type="Button" parent="VBoxContainer"]
+[node name="Left" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 
-[node name="Button2" type="Button" parent="VBoxContainer"]
+[node name="Right" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="."]
+[node name="Jump" type="Button" parent="."]
 offset_right = 8.0
 offset_bottom = 8.0
