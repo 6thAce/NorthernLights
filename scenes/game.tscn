@@ -1,9 +1,32 @@
-[gd_scene load_steps=2 format=3 uid="uid://7im12lya3h3j"]
+[gd_scene load_steps=4 format=3 uid="uid://7im12lya3h3j"]
 
 [ext_resource type="PackedScene" uid="uid://b1souwrlsm1hu" path="res://scenes/player.tscn" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://beo3oabfx6lxg" path="res://scenes/killzone.tscn" id="2_yqjtg"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_lnu2h"]
 
 [node name="Game" type="Node"]
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="killzone" parent="." instance=ExtResource("2_yqjtg")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
+shape = SubResource("WorldBoundaryShape2D_lnu2h")
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="Labels"]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
