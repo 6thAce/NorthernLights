@@ -1,3 +1,25 @@
+<<<<<<< HEAD
 # Godot 4+ specific ignores
 .godot/
 /android/
+=======
+.import/
+.godot/
+.vs/
+*.tmp
+*.log
+*.bak
+.vscode/
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+.idea/
+*.cfg
+export.cfg
+export_presets.cfg
+*.exe
+*.dll
+*.pdb
+.mono/
+>>>>>>> 8d5a68b (Initial commit: NorthernLights Godot project)
