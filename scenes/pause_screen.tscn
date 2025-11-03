@@ -44,6 +44,12 @@ size_flags_vertical = 3
 theme_override_font_sizes/font_size = 30
 text = "Resume"
 
+[node name="Button4" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Achievements
+"
+
 [node name="Button3" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 3
@@ -55,9 +61,4 @@ layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/font_size = 30
 text = "Exit
-"
-
-[node name="Button4" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "schievements
 "
