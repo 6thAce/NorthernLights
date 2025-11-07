@@ -6,3 +6,5 @@
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_4v30p")
+
+[node name="Lights" type="Node2D" parent="."]
