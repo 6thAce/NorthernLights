@@ -32,3 +32,5 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="Lighting" type="Node2D" parent="."]
+
+[node name="PointLight2D" type="PointLight2D" parent="Lighting"]
