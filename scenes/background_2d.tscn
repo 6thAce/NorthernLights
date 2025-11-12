@@ -10,9 +10,13 @@ environment = SubResource("Environment_4v30p")
 [node name="Lights" type="Node2D" parent="."]
 
 [node name="PointLight2D" type="PointLight2D" parent="Lights"]
+position = Vector2(-170, 43)
 
 [node name="PointLight2D2" type="PointLight2D" parent="Lights"]
+position = Vector2(-168, 84)
 
 [node name="PointLight2D3" type="PointLight2D" parent="Lights"]
+position = Vector2(-174, 122)
 
 [node name="PointLight2D4" type="PointLight2D" parent="Lights"]
+position = Vector2(-171, 182)
