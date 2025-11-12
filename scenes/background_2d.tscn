@@ -14,3 +14,5 @@ environment = SubResource("Environment_4v30p")
 [node name="PointLight2D2" type="PointLight2D" parent="Lights"]
 
 [node name="PointLight2D3" type="PointLight2D" parent="Lights"]
+
+[node name="PointLight2D4" type="PointLight2D" parent="Lights"]
