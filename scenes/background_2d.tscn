@@ -20,3 +20,5 @@ position = Vector2(-25, 18)
 
 [node name="PointLight2D4" type="PointLight2D" parent="Lights"]
 position = Vector2(-25, 24)
+
+[node name="PointLight2D5" type="PointLight2D" parent="Lights"]
