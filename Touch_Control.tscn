@@ -16,9 +16,11 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Left" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(12, 24)
 layout_mode = 2
 
 [node name="Right" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(12, 24)
 layout_mode = 2
 
 [node name="Jump" type="Button" parent="."]
