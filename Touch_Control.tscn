@@ -23,6 +23,11 @@ layout_mode = 2
 custom_minimum_size = Vector2(12, 24)
 layout_mode = 2
 
-[node name="Jump" type="Button" parent="."]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="jump" type="Button" parent="."]
+anchors_preset = -1
+anchor_right = 0.61300004
+anchor_bottom = 0.5
+offset_left = 100.0
+offset_top = 528.0
+offset_right = -502.17603
+offset_bottom = 249.0
